@@ -5,4 +5,4 @@ This project is under development. Interested buddies can join me.
 
 Developed By Prem Lamsal
 email: premlamsal2@gmail.com
-ASP.NET Travel Book bY Prem lamsal
+ASP.NET Travel Book by Prem lamsal
