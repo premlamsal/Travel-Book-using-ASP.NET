@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Travel.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" id="form">
+    <div class="container">
+		<div class="navContainer">
+		<ul>
+			<li><a href="#">MY BOOK</a></li>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="find.aspx">Find</a></li>
+			<li><a href="#">Visited Places</a></li>
+              <li><a href="logout.aspx">LogOut</a></li>
+		</ul>
+	</div>
+	<div class="landing">
+		<div class="leftNav">
+              <asp:Image ID="Image1" runat="server" style=" width:260px;"/>
+	            <h3><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></h3>
+	           <ul>
+	          <li><a href="home.aspx" class="active">News</a></li>
+	           	<li><a href="about.aspx" >About</a></li>
+	           	<li><a href="location.aspx" >Location</a></li>
+	           	<li><a href="points.aspx" >Points</a></li>
+	           	<li><a href="levels.aspx" >Level</a></li>
+	           	<li><a href="setting.aspx" >Setting</a></li>
+	           </ul>
+	  	</div><!--end of leftNav-->
+		<div class="masternewfeed">
+            
+			  <asp:HyperLink ID="HyperLink1" runat="server"></asp:HyperLink>
+          
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+		</div><!--end of newsfeed-->
+         <div class="rightNav">
+       	   <h3 class="rightNav_heading">Profile Notification</h3>
+           <div class="complete-profile">
+           <p>
+               <asp:HyperLink ID="HyperLink2" runat="server"></asp:HyperLink>
+           </p>
+           </div>
+       </div><!--end of rightNav-->
+         
+	</div><!--end of landing-->
+
+ 
+
+
+        </div>
+
+
+
+    <div>
+       
+    </div>
+    </form>
+</body>
+</html>

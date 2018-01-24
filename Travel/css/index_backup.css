@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+}
+body{
+    
+background: #eee;
+}
+.container{width: 96%; height: auto; margin-left: 2%; position: relative;}
+.nav {
+    background: #ffffff;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #E91E63;
+}
+.nav ul{list-style: none; float: right;}
+.nav ul li {
+
+float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 61px;
+    padding: 16px;
+    text-align:  center;
+}
+.nav ul li a:hover{
+    background: white;
+    color: purple;
+}
+form.login-box {
+    margin: 8px;
+    float:  right;
+}
+input.login-box-inner-input {
+    padding: 9px;
+    font-size:  14px;
+    border: 1px solid #eee;
+    /* border: none; */
+    border-radius:  8px;
+    outline: none;
+}
+input.login-box-inner-btn {
+    padding: 9px;
+    font-size: 14px;
+    background: #E91E63;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input.login-box-inner-btn:hover{
+background: #bd3c13;
+color: white;
+}
+h1.top-profile-h1 {
+    color: #E91E63;
+}
+.landing {
+    margin-top: 10px;
+}
+.footer{background: #E91E63;color: white;width:100%;position: absolute;height: 24px;font-size:  13px;bottom:  0px;text-align:  center;}
+img.img-top-distinct {
+    padding:  3px;
+    border: 2px solid #E91E63;
+    border-bottom-left-radius:  8%;
+}
+form.signup-form {
+    background: white;
+    float:  right;
+    margin-right:  10px;
+    padding: 47px;
+    padding-top: 20px;
+    width: 323px;
+    padding-bottom: 29px;
+    border-bottom-right-radius:  12%;
+    border: 1px solid #E91E638c;
+}
+input.signup-box-inner-input {
+    width: 279px;
+    border-radius:  7px;
+    height: 25px;
+    /* margin-top: 7px; */
+    margin-bottom: 12px;
+    border: 1px solid #dad9d9;
+    padding: 7px;
+}
+input.signup-box-inner-btn {
+    border: none;
+    border-radius:  5px;
+    padding:  9px;
+    color:  white;
+    cursor:  pointer;
+    background: #E91E63;
+}
+span.proflie-masthead {
+    color: #E91E63;
+    font-size:  25px;
+}
+p.terms {
+    font-size: 12px;
+    margin-bottom:  11px;
+}
+.orange{
+    color: #E91E63;
+}
